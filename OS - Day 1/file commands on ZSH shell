@@ -1,0 +1,5 @@
+cat: Concatenate and display the content of files. - cat file1.txt
+head: Output the first part of files. - head -n 10 file1.txt
+tail: Output the last part of files. - tail -n 10 file1.txt
+cp: Copy files and directories. - cp file1.txt file2.txt
+rm: Remove files or directories. - rm file2.txt

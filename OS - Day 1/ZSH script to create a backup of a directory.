@@ -1,0 +1,10 @@
+#!/bin/zsh
+src_dir="source_directory"
+backup_dir="backup_directory"
+
+if [ ! -d "$backup_dir" ]; then
+    mkdir -p "$backup_dir"
+fi
+
+cp -r "$src_dir"/* "$backup_dir"
+echo "Backup of $src_dir completed in $backup_dir"

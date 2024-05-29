@@ -1,0 +1,5 @@
+ls: List directory contents. - ls -l
+mkdir: Make directories. - mkdir new_directory
+cd: Change the current directory. - cd new_directory
+rmdir: Remove empty directories. - rmdir new_directory
+pwd: Print name of current/working directory. - pwd
